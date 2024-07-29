@@ -1,7 +1,7 @@
 # Import AD Module
 Import-Module ActiveDirectory
 
-# Creating AD User
+# Creating AD User with example name
 New-ADUser `
     -Name "Ken Masters" `
     -GivenName "Ken" `
